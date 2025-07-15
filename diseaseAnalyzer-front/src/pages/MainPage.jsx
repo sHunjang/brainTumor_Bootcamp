@@ -72,7 +72,8 @@ const styles = {
     border: 'none',
     backgroundColor: '#eee',
     cursor: 'pointer',
-    borderRadius: '6px'
+    borderRadius: '6px',
+    fontSize: '25px'
   }
 };
 

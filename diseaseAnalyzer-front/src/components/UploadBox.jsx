@@ -25,8 +25,8 @@ const UploadBox = ({ onFileSelect }) => {
   return (
     <div style={styles.container}>
       <div style={styles.box}>
-        <p><strong>사진 업로드</strong></p>
-        <p style={{ fontSize: '12px' }}>Drag and drop or click to upload</p>
+        <p style={{fontSize: '40px'}}><strong>사진 업로드</strong></p>
+        <p style={{ fontSize: '25px' }}>Drag and drop or click to upload</p>
         <button onClick={handleClick} style={styles.button}>Upload Photo</button>
         <input
           type="file"
