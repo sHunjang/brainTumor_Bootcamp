@@ -80,9 +80,9 @@
 
 - **Python 3.10+ 권장**
 - 가상환경 생성 및 패키지 설치:
-conda create -n brain-tumor python=3.10
-pip install --upgrade pip
-pip install -r requirements.txt
+`conda create -n brain-tumor python=3.10`
+`pip install --upgrade pip`
+`pip install -r requirements.txt`
 
 
 ### 2. DB 준비
@@ -97,7 +97,7 @@ pip install -r requirements.txt
 ### 4. 백엔드 실행
 
 - 루트 경로에서:
-uvicorn app.main:app --reload
+`uvicorn app.main:app --reload`
 
 - API 문서: http://localhost:8000/docs 또는 http://127.0.0.1:8000/docs
 
